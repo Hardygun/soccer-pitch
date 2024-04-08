@@ -96,4 +96,66 @@
   top: calc(50% - 50px);
   border-right: 0;
   left: 94%;
+}
+
+@media screen and (max-width: 940px) {
+  .container {
+    width: 850px;
+    height: 550px;
+  }
+}
+@media screen and (max-width: 763px) {
+  .container {
+    width: 770px;
+    height: 590px;
+  }
+  .container .post1 {
+    position: absolute;
+    left: 93%;
+  }
+}
+@media screen and (max-width: 640px) {
+  .container {
+    width: 630px;
+    height: 550px;
+  }
+  .container .post1 {
+    left: 91%;
+  }
+  .container .corner-right {
+    top: 94%;
+  }
+  .container .corner-right1 {
+    top: 94%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 300px;
+    height: 500px;
+  }
+  .container .post1 {
+    width: 25px;
+    height: 100px;
+    left: 89%;
+  }
+  .container .post {
+    width: 25px;
+  }
+  .container .middle-circle {
+    width: 50px;
+    height: 50px;
+    top: 44%;
+    left: 38%;
+  }
+  .container .corner-right {
+    top: 93%;
+    left: 87%;
+  }
+  .container .corner-right1 {
+    top: 93%;
+  }
+  .container .corner-left {
+    left: 87%;
+  }
 }/*# sourceMappingURL=pitch.css.map */
