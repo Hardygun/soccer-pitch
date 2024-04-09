@@ -137,6 +137,32 @@ $border: 4px solid;
     }
 }
 
+@media screen and (max-width:430px) {
+    .container{
+        width: 400px;
+        height: 500px;
+    
+    .post1{
+        left: 85%;
+        }
+
+        .corner-right{
+            top: 93%;
+            left: 91%;
+        }
+
+        .corner-left{
+            left: 91%;
+        }
+
+        .corner-right1{
+            top: 93%;
+        }
+    }
+    
+    
+}
+
 @media screen and (max-width:320px) {
     .container{
         width: 300px;

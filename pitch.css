@@ -129,6 +129,25 @@
     top: 94%;
   }
 }
+@media screen and (max-width: 430px) {
+  .container {
+    width: 400px;
+    height: 500px;
+  }
+  .container .post1 {
+    left: 85%;
+  }
+  .container .corner-right {
+    top: 93%;
+    left: 91%;
+  }
+  .container .corner-left {
+    left: 91%;
+  }
+  .container .corner-right1 {
+    top: 93%;
+  }
+}
 @media screen and (max-width: 320px) {
   .container {
     width: 300px;
